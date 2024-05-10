@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 7em;
+    width: 100%;
+}
+
+#logo{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.redes{
+    margin-left: 20px;
+    margin-right: 175px;
+    font-size: 18px;
+}
+
+.botao{
+    padding-left: 175px;
+}
+
+.roupas{
+    margin-right: 15px;
+}
+
+#iroupas{
+    margin-left: 120px;
+}
+
+.acessorios{
+    padding-left: 15px;
+}
+
+.kits{
+    padding-right: 15px;
+}
+
+.contato{
+    padding-left: 15px;
+}
+
+.botao > a{
+    padding: 7px;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*MAIN*/
+
+.main{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    background-image: url('images/fundo-roupas.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 241px;
+}
+
+#introdução > h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+#slogan > h1{
+    font-size: 45px;
+}
+
+.botao2 > a{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    padding: 13px;
+    border-radius: 6px;
+    transition: .75s;
+}
+
+.botao2 > a:hover{
+    background-color: rgba(54, 54, 54, 0.61);
+    color: white;
+    transition: .75s;
+}
+
+.botao2{
+    margin-top: 25px;
+}
+
+.destaque{
+    color: #9014b6;
+    font-weight: bolder;
+}
+
+/*FOOTER*/
+
+footer{
+    text-align: center;
+}
+
+#logo-footer{
+    width: 50px;
+}

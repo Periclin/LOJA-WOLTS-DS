@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 7em;
+}
+
+#logo{
+    padding-top: 15px;
+    width: 65px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.redes{
+    font-size: 18px;
+    margin-right: 175px;
+}
+
+.botao{
+    padding-left: 175px;
+}
+
+.roupas{
+    padding-right: 15px;
+}
+
+#iroupas{
+    margin-left: 65px;
+}
+
+.acessorios{
+    padding-left: 15px;
+}
+
+.kits{
+    padding-right: 15px;
+}
+
+.contato{
+    padding-left: 15px;
+}
+
+.section3{
+    margin-left: 175px;
+}
+
+#iativo{
+    color: rgb(105, 105, 105);
+}
+
+#ativo{
+    color: rgb(105, 105, 105);
+}
+
+/*MENU*/
+
+.container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#idestaque{
+    color: purple;
+}
+
+.redes2{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+a #ifacebook{
+    margin-top: 20px;
+}
+
+/*FOOTER*/
+
+footer{
+    text-align: center;
+}
+
+#logo-footer{
+    margin-top: 180px;
+    width: 50px;
+}

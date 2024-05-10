@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 7em;
+}
+
+#logo{
+    padding-top: 15px;
+    width: 65px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.redes{
+    font-size: 18px;
+    margin-right: 175px;
+}
+
+.botao{
+    padding-left: 175px;
+}
+
+.roupas{
+    padding-right: 15px;
+}
+
+#iroupas{
+    margin-left: 65px;
+}
+
+.acessorios{
+    padding-left: 15px;
+}
+
+.kits{
+    padding-right: 15px;
+}
+
+.contato{
+    padding-left: 15px;
+}
+
+.section3{
+    margin-left: 175px;
+}
+
+#iativo{
+    color: rgb(105, 105, 105);
+}
+
+#ativo{
+    color: rgb(105, 105, 105);
+}
+
+/*MENU*/
+
+.menu{
+    padding-top: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.imagem{
+    background: url(images/tenis-alexander1.png);
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .75s;
+
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.349);
+}
+
+.imagem:hover{
+    transition: .75s;
+    background: url(images/tenis-alexander2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.anuncio h2{
+    font-size: 25px;
+    padding: 10px;
+}
+
+#texto{
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+#valor{
+    font-weight: bolder;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.discreto{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.349);
+}
+
+#parcelamento{
+    padding-top: 5px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.575);
+    font-weight: bolder;
+}
+
+button{
+    background: transparent;
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    font-weight: bolder;
+
+    background-color: #F81C36;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+button:hover{
+    transition: .3s;
+    cursor: pointer;
+    background-color: #f81c369f;
+    color: #0000007c;
+}
+
+hr{
+    margin: 0 auto 40px auto;
+    width: 115px;
+    border: 1px solid black;
+}
+
+/*ROUPA 2*/
+
+.imagem2{
+    background: url(images/bone-brasil1.png);
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .75s;
+
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.349);
+}
+
+.imagem2:hover{
+    transition: .75s;
+    background: url(images/bone-brasil2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*FOOTER*/
+
+footer{
+    text-align: center;
+}
+
+#logo-footer{
+    margin-top: 40px;
+    width: 50px;
+}
